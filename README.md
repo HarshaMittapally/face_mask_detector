@@ -61,20 +61,22 @@ cd face_mask_detector
 ```
 
 ### 2️⃣ Create virtual environment
-
+```
 python -m venv venv
 venv\Scripts\activate
-
+```
 
 ### 3️⃣ Install dependencies
-
+```
 pip install -r requirements.txt
-
+```
 
 ##  Model Training
 
 Run the training script:
+```
 python train.py
+```
 
 👉 This will:
 
@@ -87,9 +89,9 @@ python train.py
 ## 🎥 Run Detection
 
 Run the real-time detector:
-
+```
 python detector.py
-
+```
 👉 Output:
 
 * Webcam opens
